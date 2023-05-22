@@ -1,212 +1,613 @@
-import 'lec_4_4.dart';
+import 'lec_4_4_2.dart';
 
-void main(){
-    List<Map<String,dynamic>> Allempoloyee = [
-        {
-        'name':"Bhavin bhalala",
-        'id':1
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':2
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':3
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':4
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':5
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':6
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':7
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':8
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':9
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':10
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':11
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':12
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':13
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':14
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':15
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':16
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':17
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':18
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':19
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':20
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':21
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':22
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':23
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':24
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':25
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':26
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':27
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':28
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':29
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':30
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':31
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':32
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':33
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':34
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':35
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':36
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':37
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':38
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':39
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':40
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':41
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':42
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':43
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':44
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':45
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':46
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':47
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':48
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':49
-        },
-        {
-        'name':"Bhavin bhalala",
-        'id':50
-        },
-    ];
+void main() {
+  List<Map<String, dynamic>> Allempoloyee = [
+    {
+      'id': 1,
+      'name': 'Kabir',
+      'gender': 'Male',
+      'age': 22,
+      'qualification': 'BA',
+      'company_name': 'Infinity',
+      'designation': 'Designer',
+      'experience': 3,
+      'Salary': 25000,
+      'mobile_no': '9876545738'
+    },
+    {
+      'id': 2,
+      'name': 'Aaradhya',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'BSc',
+      'company_name': 'TechSolutions',
+      'designation': 'Software Engineer',
+      'experience': 2,
+      'Salary': 30000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 3,
+      'name': 'Arjun',
+      'gender': 'Male',
+      'age': 28,
+      'qualification': 'MTech',
+      'company_name': 'DataTech',
+      'designation': 'Data Analyst',
+      'experience': 5,
+      'Salary': 45000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 4,
+      'name': 'Anaya',
+      'gender': 'Female',
+      'age': 25,
+      'qualification': 'MBA',
+      'company_name': 'InnovateSoft',
+      'designation': 'UX Designer',
+      'experience': 3,
+      'Salary': 35000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 5,
+      'name': 'Arnav',
+      'gender': 'Male',
+      'age': 26,
+      'qualification': 'BE',
+      'company_name': 'CodeCraft',
+      'designation': 'Frontend Developer',
+      'experience': 4,
+      'Salary': 38000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 6,
+      'name': 'Sneha',
+      'gender': 'Female',
+      'age': 23,
+      'qualification': 'BCom',
+      'company_name': 'TechGenius',
+      'designation': 'Product Manager',
+      'experience': 2,
+      'Salary': 32000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 7,
+      'name': 'Rohan',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'PhD',
+      'company_name': 'InnovateTech',
+      'designation': 'Research Scientist',
+      'experience': 6,
+      'Salary': 55000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 8,
+      'name': 'Zara',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MSc',
+      'company_name': 'WebTech',
+      'designation': 'Full Stack Developer',
+      'experience': 3,
+      'Salary': 40000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 9,
+      'name': 'Rahul',
+      'gender': 'Male',
+      'age': 29,
+      'qualification': 'BSc',
+      'company_name': 'DigitalSolutions',
+      'designation': 'Data Engineer',
+      'experience': 4,
+      'Salary': 42000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 10,
+      'name': 'Tanvi',
+      'gender': 'Female',
+      'age': 26,
+      'qualification': 'MA',
+      'company_name': 'TechCorp',
+      'designation': 'Project Manager',
+      'experience': 5,
+      'Salary': 48000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 11,
+      'name': 'Riya',
+      'gender': 'Female',
+      'age': 27,
+      'qualification': 'B.Tech',
+      'company_name': 'TechSolutions',
+      'designation': 'Software Engineer',
+      'experience': 3,
+      'Salary': 35000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 12,
+      'name': 'Aryan',
+      'gender': 'Male',
+      'age': 25,
+      'qualification': 'BSc',
+      'company_name': 'DataTech',
+      'designation': 'Data Analyst',
+      'experience': 2,
+      'Salary': 30000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 13,
+      'name': 'Neha',
+      'gender': 'Female',
+      'age': 28,
+      'qualification': 'MCA',
+      'company_name': 'InnovateSoft',
+      'designation': 'UX Designer',
+      'experience': 4,
+      'Salary': 40000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 14,
+      'name': 'Dev',
+      'gender': 'Male',
+      'age': 23,
+      'qualification': 'BE',
+      'company_name': 'CodeCraft',
+      'designation': 'Frontend Developer',
+      'experience': 1,
+      'Salary': 28000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 15,
+      'name': 'Sia',
+      'gender': 'Female',
+      'age': 26,
+      'qualification': 'BCom',
+      'company_name': 'TechGenius',
+      'designation': 'Product Manager',
+      'experience': 3,
+      'Salary': 32000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 16,
+      'name': 'Raj',
+      'gender': 'Male',
+      'age': 29,
+      'qualification': 'PhD',
+      'company_name': 'InnovateTech',
+      'designation': 'Research Scientist',
+      'experience': 5,
+      'Salary': 50000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 17,
+      'name': 'Aishwarya',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MSc',
+      'company_name': 'WebTech',
+      'designation': 'Full Stack Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 18,
+      'name': 'Akash',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DigitalSolutions',
+      'designation': 'Data Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 19,
+      'name': 'Ananya',
+      'gender': 'Female',
+      'age': 25,
+      'qualification': 'MA',
+      'company_name': 'TechCorp',
+      'designation': 'Project Manager',
+      'experience': 4,
+      'Salary': 42000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 20,
+      'name': 'Vikram',
+      'gender': 'Male',
+      'age': 28,
+      'qualification': 'MTech',
+      'company_name': 'DataTech',
+      'designation': 'Data Scientist',
+      'experience': 6,
+      'Salary': 55000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 21,
+      'name': 'Aarushi',
+      'gender': 'Female',
+      'age': 26,
+      'qualification': 'B.Tech',
+      'company_name': 'TechSolutions',
+      'designation': 'Software Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 22,
+      'name': 'Aditya',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DataTech',
+      'designation': 'Data Analyst',
+      'experience': 2,
+      'Salary': 32000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 23,
+      'name': 'Ishika',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MCA',
+      'company_name': 'InnovateSoft',
+      'designation': 'UX Designer',
+      'experience': 4,
+      'Salary': 40000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 24,
+      'name': 'Rishi',
+      'gender': 'Male',
+      'age': 25,
+      'qualification': 'BE',
+      'company_name': 'CodeCraft',
+      'designation': 'Frontend Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 25,
+      'name': 'Avani',
+      'gender': 'Female',
+      'age': 23,
+      'qualification': 'BCom',
+      'company_name': 'TechGenius',
+      'designation': 'Product Manager',
+      'experience': 1,
+      'Salary': 28000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 26,
+      'name': 'Rahul',
+      'gender': 'Male',
+      'age': 26,
+      'qualification': 'PhD',
+      'company_name': 'InnovateTech',
+      'designation': 'Research Scientist',
+      'experience': 5,
+      'Salary': 50000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 27,
+      'name': 'Amrita',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MSc',
+      'company_name': 'WebTech',
+      'designation': 'Full Stack Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 28,
+      'name': 'Amit',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DigitalSolutions',
+      'designation': 'Data Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 29,
+      'name': 'Ishita',
+      'gender': 'Female',
+      'age': 25,
+      'qualification': 'MA',
+      'company_name': 'TechCorp',
+      'designation': 'Project Manager',
+      'experience': 4,
+      'Salary': 42000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 30,
+      'name': 'Armaan',
+      'gender': 'Male',
+      'age': 28,
+      'qualification': 'MTech',
+      'company_name': 'DataTech',
+      'designation': 'Data Scientist',
+      'experience': 6,
+      'Salary': 55000,
+      'mobile_no': '8998766754'
+    },
+    {
+      'id': 31,
+      'name': 'Anjali',
+      'gender': 'Female',
+      'age': 26,
+      'qualification': 'B.Tech',
+      'company_name': 'TechSolutions',
+      'designation': 'Software Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 32,
+      'name': 'Aryan',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DataTech',
+      'designation': 'Data Analyst',
+      'experience': 2,
+      'Salary': 32000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 33,
+      'name': 'Divya',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MCA',
+      'company_name': 'InnovateSoft',
+      'designation': 'UX Designer',
+      'experience': 4,
+      'Salary': 40000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 34,
+      'name': 'Rahul',
+      'gender': 'Male',
+      'age': 25,
+      'qualification': 'BE',
+      'company_name': 'CodeCraft',
+      'designation': 'Frontend Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 35,
+      'name': 'Ishika',
+      'gender': 'Female',
+      'age': 23,
+      'qualification': 'BCom',
+      'company_name': 'TechGenius',
+      'designation': 'Product Manager',
+      'experience': 1,
+      'Salary': 28000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 36,
+      'name': 'Raj',
+      'gender': 'Male',
+      'age': 26,
+      'qualification': 'PhD',
+      'company_name': 'InnovateTech',
+      'designation': 'Research Scientist',
+      'experience': 5,
+      'Salary': 50000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 37,
+      'name': 'Kavya',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MSc',
+      'company_name': 'WebTech',
+      'designation': 'Full Stack Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 38,
+      'name': 'Amit',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DigitalSolutions',
+      'designation': 'Data Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 39,
+      'name': 'Ananya',
+      'gender': 'Female',
+      'age': 25,
+      'qualification': 'MA',
+      'company_name': 'TechCorp',
+      'designation': 'Project Manager',
+      'experience': 4,
+      'Salary': 42000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 40,
+      'name': 'Vikas',
+      'gender': 'Male',
+      'age': 28,
+      'qualification': 'MTech',
+      'company_name': 'DataTech',
+      'designation': 'Data Scientist',
+      'experience': 6,
+      'Salary': 55000,
+      'mobile_no': '9876543216'
+    },
+    {
+      'id': 41,
+      'name': 'Neha',
+      'gender': 'Female',
+      'age': 26,
+      'qualification': 'B.Tech',
+      'company_name': 'TechSolutions',
+      'designation': 'Software Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 42,
+      'name': 'Vivek',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DataTech',
+      'designation': 'Data Analyst',
+      'experience': 2,
+      'Salary': 32000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 43,
+      'name': 'Deepika',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MCA',
+      'company_name': 'InnovateSoft',
+      'designation': 'UX Designer',
+      'experience': 4,
+      'Salary': 40000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 44,
+      'name': 'Rajat',
+      'gender': 'Male',
+      'age': 25,
+      'qualification': 'BE',
+      'company_name': 'CodeCraft',
+      'designation': 'Frontend Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 45,
+      'name': 'Kirti',
+      'gender': 'Female',
+      'age': 23,
+      'qualification': 'BCom',
+      'company_name': 'TechGenius',
+      'designation': 'Product Manager',
+      'experience': 1,
+      'Salary': 28000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 46,
+      'name': 'Ravi',
+      'gender': 'Male',
+      'age': 26,
+      'qualification': 'PhD',
+      'company_name': 'InnovateTech',
+      'designation': 'Research Scientist',
+      'experience': 5,
+      'Salary': 50000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 47,
+      'name': 'Nisha',
+      'gender': 'Female',
+      'age': 24,
+      'qualification': 'MSc',
+      'company_name': 'WebTech',
+      'designation': 'Full Stack Developer',
+      'experience': 2,
+      'Salary': 35000,
+      'mobile_no': '8987654321'
+    },
+    {
+      'id': 48,
+      'name': 'Aakash',
+      'gender': 'Male',
+      'age': 27,
+      'qualification': 'BSc',
+      'company_name': 'DigitalSolutions',
+      'designation': 'Data Engineer',
+      'experience': 3,
+      'Salary': 38000,
+      'mobile_no': '8998765432'
+    },
+    {
+      'id': 49,
+      'name': 'Ishita',
+      'gender': 'Female',
+      'age': 25,
+      'qualification': 'MA',
+      'company_name': 'TechCorp',
+      'designation': 'Project Manager',
+      'experience': 4,
+      'Salary': 42000,
+      'mobile_no': '9876543210'
+    },
+    {
+      'id': 50,
+      'name': 'Pranav',
+      'gender': 'Male',
+      'age': 28,
+      'qualification': 'MTech',
+      'company_name': 'DataTech',
+      'designation': 'Data Scientist',
+      'experience': 6,
+      'Salary': 55000,
+      'mobile_no': '8987655645'
+    }
+  ];
 
-    List<Employee> l1 = Allempoloyee.map((e) => Employee.employeeData(data: e)).toList();
+  List<Employee> l1 =
+      Allempoloyee.map((e) => Employee.employeeData(data: e)).toList();
 
-    l1.forEach((element) {
-        element.getData();
-    });
+  l1.forEach((element) {
+    element.getData();
+  });
 }
